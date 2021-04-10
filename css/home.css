@@ -1,0 +1,160 @@
+.intro {
+    background: url("/assets/home/intro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 10%;
+}
+
+.intro h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #0A19CE;
+}
+
+.intro h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #263238;
+}
+
+.intro p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: justify;
+    color: #969696;
+    padding-right: 20%;
+}
+
+.wdwd {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    color: #0A19CE;
+}
+
+.owl-carousel {
+    padding: 5%;
+}
+
+.item .card {
+    width: 328px;
+    height: 324px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding: 10% 5%;
+}
+
+.card .card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #263238;
+}
+
+.card .card-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    color: #848383;
+}
+
+.web {
+    width: 389px;
+    height: 79px;
+    left: 83.8px;
+    top: 99px;
+    background: linear-gradient(180deg, rgba(144, 142, 224, 0.4) 0%, rgba(141, 135, 216, 0.4) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.cyber {
+    width: 389px;
+    height: 79px;
+    background: linear-gradient(180deg, rgba(242, 180, 225, 0.4) 0%, rgba(233, 151, 193, 0.4) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.human {
+    width: 389px;
+    height: 79px;
+    background: linear-gradient(180deg, rgba(142, 199, 224, 0.4) 0%, rgba(135, 196, 216, 0.4) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.ml {
+    width: 389px;
+    height: 79px;
+    background: linear-gradient(180deg, rgba(224, 142, 157, 0.4) 0%, rgba(216, 135, 140, 0.4) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.domain .col-6 .web,
+.domain .col-6 .cyber,
+.domain .col-6 .human,
+.domain .col-6 .ml {
+    margin: 5% auto;
+    padding-top: 3%;
+}
+
+.web p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #64558E;
+}
+
+.cyber p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #AD3454;
+}
+
+.human p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #64558E;
+}
+
+.ml p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #894713;
+}

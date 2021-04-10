@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
     <title>ACM-W</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
@@ -33,27 +37,122 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+    <div class="container-fluid">
+
+        <div class="row intro">
+            <div class="col-lg-6">
                 <h4>ACM-W SRM</h4>
                 <h1>
-                    Uplifting Women One Code At A Time
+                    Uplifting<br> <span class="gradient">Women</span> One<br> Code At A Time
                 </h1>
                 <p>ACM-W (Association for Computing Machinery's Council on Women in Computing) supports, celebrates, and advocates the full engagement of women in all aspects of the computing field. The SRM ACM-W student chapter began its journey in 2020
                     and wishes to leave a mark in the field of computing.</p>
             </div>
+        </div>
 
-            <div class="col-lg-6 col-md-6 col-sm-12"></div>
-            <h3 class="text-center">So, what do we do?</h3>
+        <h3 class="text-center wdwd">So, what do we do?</h3>
+        <div class="row">
             <div class="col-12">
-                <p> Carousel</p>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Paper Discussions</h5>
+                                <p class="card-text">Research papers are a great source of knowledge. Discussing research papers by various members of the tech community is an excellent way of initiating an intellectual dialogue between members of our community.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <h5 class="card-title text-center">Workshops</h5>
+                            <p class="card-text">Workshops are a way for our community members to perfect their skills by sharing their knowledge and providing a hands-on experience to those interested. We also frequently bring in industry experts to conduct our workshops.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <h5 class="card-title text-center">Game Nights</h5>
+                            <p class="card-text">Research papers are a great source of knowledge. Discussing research papers by various members of the tech community is an excellent way of initiating an intellectual dialogue between members of our community.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Paper Discussions</h5>
+                                <p class="card-text">Research papers are a great source of knowledge. Discussing research papers by various members of the tech community is an excellent way of initiating an intellectual dialogue between members of our community.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <h5 class="card-title text-center">Workshops</h5>
+                            <p class="card-text">Workshops are a way for our community members to perfect their skills by sharing their knowledge and providing a hands-on experience to those interested. We also frequently bring in industry experts to conduct our workshops.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <h5 class="card-title text-center">Game Nights</h5>
+                            <p class="card-text">Research papers are a great source of knowledge. Discussing research papers by various members of the tech community is an excellent way of initiating an intellectual dialogue between members of our community.</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <h3 class="text-center">Our Domains</h3>
+        </div>
+
+        <h3 class="text-center wdwd">Our Domains</h3>
+        <div class="row domain">
+            <div class="col-6 text-center">
+                <div class="web">
+                    <p class=" text-center">Web Development</p>
+                </div>
+            </div>
+            <div class="col-6  text-center">
+                <div class="cyber">
+                    <p class=" text-center">Cyber Security</p>
+                </div>
+            </div>
+            <div class="col-6 text-center">
+                <div class="human">
+                    <p class=" text-center">Human Computer Interaction</p>
+                </div>
+            </div>
+            <div class="col-6  text-center">
+                <div class="ml">
+                    <p class=" text-center">Machine Learning</p>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js " integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js " integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin=" anonymous "></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            margin: 30,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            dots: true,
+            nav: true,
+            autoplayHoverPause: true,
+            slideBy: 1,
+            dotsEach: 3,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                900: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
