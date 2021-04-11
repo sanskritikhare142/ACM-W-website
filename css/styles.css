@@ -9,6 +9,19 @@ body {
     background-color: rgba(0, 0, 0, 0.0)!important;
 }
 
+.nav-link {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #969696;
+}
+
+.active>.nav-link {
+    color: #0A19CE!important;
+}
+
 .gradient {
     background: linear-gradient(178.89deg, #BF9AD4 0.95%, #407BFF 252.36%);
     -webkit-background-clip: text;
@@ -16,7 +29,7 @@ body {
 }
 
 footer {
-    background: url("/assets/home/contact.png");
+    background: url("/assets/events/cal.png");
 }
 
 footer h4 {
