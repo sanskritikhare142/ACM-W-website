@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
@@ -49,6 +49,67 @@
                 <button class="btn btn-primary">Register</button>
             </div>
         </div>
+        <h3 class="wdwd text-center">Our Latest Events</h3>
+        <div class="row events">
+
+            <div class="owl-carousel owl-theme">
+                <div class="item d-flex justify-content-around">
+                    <div>
+                        <img src="assets/events/bootcamp.png">
+                    </div>
+                    <div class="desc">
+                        <h1>Design Bootcamp</h1>
+                        <p>The Girls x Tech Design bootcamp, a designing bootcamp was organised to teach female students the fundamentals of design and to build their own mockups using Smartmockups with the help of Canva. The bootcamp helped in sharpening
+                            the attendee's designing skills and gave access to tools which helped bring out their creative side.</p>
+                    </div>
+                </div>
+                <div class="item d-flex justify-content-around">
+                    <div>
+                        <img src="assets/events/bootcamp.png">
+                    </div>
+                    <div class="desc">
+                        <h1>Design Bootcamp</h1>
+                        <p>The Girls x Tech Design bootcamp, a designing bootcamp was organised to teach female students the fundamentals of design and to build their own mockups using Smartmockups with the help of Canva. The bootcamp helped in sharpening
+                            the attendee's designing skills and gave access to tools which helped bring out their creative side.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="text-center wdwd">Want to collaborate with us?</h3>
+        <div class="row collab">
+            <div class="col-lg-6" style="padding:5% 8%;">
+                <p>We welcome other ACM chapters, college associations, NGO’s, etc to hold global events with us! Some of our collaborations are:</p>
+                <div class="d-flex justify-content-start">
+                    <div><img src="assets/events/acm_logo_tablet 1.png"></div>
+                    <div><img src="assets/events/logo-girlsxtech 2.png"></div>
+                </div>
+            </div>
+            <div class="col-lg-6" style="padding:5%;">
+                <h4>Have an event idea?</h4>
+                <h5>
+                    Fill this form and we will reach out to you!</h5>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Association’s name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Event Idea in 50 words">
+                    </div>
+                </form>
+
+                <button class="btn btn-primary">Send</button>
+            </div>
+        </div>
+        <h3 class="text-center wdwd">Our Google Calender</h3>
+        <div class="row cal">
+            <iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FKolkata&amp;src=YWNtd3NybUBnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=0&amp;showTitle=0"
+                style="border-width:0" frameborder="0" scrolling="no"></iframe>
+
+        </div>
+
     </div>
 
     <footer>
@@ -60,23 +121,23 @@
     <script>
         $('.owl-carousel').owlCarousel({
             loop: false,
-            margin: 30,
+            margin: 0,
             autoplay: true,
             autoplayTimeout: 4000,
             dots: true,
             nav: true,
             autoplayHoverPause: true,
             slideBy: 1,
-            dotsEach: 3,
+            dotsEach: 1,
             responsive: {
                 0: {
                     items: 1
                 },
                 600: {
-                    items: 2
+                    items: 1
                 },
                 900: {
-                    items: 3
+                    items: 1
                 }
             }
         })

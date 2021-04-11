@@ -1,8 +1,11 @@
 .intro {
-    background: url("/assets/events/intro.png")
+    background: url("/assets/events/intro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.intro button {
+.intro button,
+.collab button {
     width: 101px;
     height: 30px;
     background: linear-gradient(178.89deg, #BF9AD4 0.95%, #407BFF 252.36%);
@@ -15,4 +18,89 @@
     text-transform: capitalize;
     color: #FFFFFF;
     border: none;
+}
+
+.owl-carousel .item {
+    width: 867px;
+    height: 324px;
+    filter: drop-shadow(3px 7px 40px rgba(0, 0, 0, 0.14));
+    margin: 0 auto
+}
+
+.item h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #263238;
+}
+
+.item p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    color: #727272;
+}
+
+.item img {
+    width: 270px;
+    height: 324px;
+}
+
+.item .desc {
+    width: 634px;
+    height: 324px;
+    background: #FFFFFF;
+    padding: 10% 8%;
+}
+
+.collab h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0A19CE;
+}
+
+.collab h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #263238;
+}
+
+.collab input[type="text"],
+.collab input[type="email"] {
+    width: 531px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+input::placeholder {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #DBDBDB;
+}
+
+.cal {
+    padding: 10%;
+    background: url("/assets/events/cal.png");
+}
+
+iframe {
+    width: 1000px;
+    height: 600px;
 }
