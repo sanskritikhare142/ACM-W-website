@@ -1,0 +1,18 @@
+.intro {
+    background: url("/assets/events/intro.png")
+}
+
+.intro button {
+    width: 101px;
+    height: 30px;
+    background: linear-gradient(178.89deg, #BF9AD4 0.95%, #407BFF 252.36%);
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+}
