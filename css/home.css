@@ -33,7 +33,7 @@
     line-height: 21px;
     text-align: justify;
     color: #969696;
-    padding-right: 20%;
+    padding-right: 3%;
 }
 
 .wdwd {
@@ -56,6 +56,7 @@
     backdrop-filter: blur(4px);
     border-radius: 10px;
     padding: 10% 5%;
+    margin: 0 auto;
 }
 
 .card .card-title {
@@ -190,4 +191,40 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10%;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.one {
+    position: absolute;
+    top: 15%;
+    z-index: 100;
+}
+
+.two {
+    position: absolute;
+    bottom: 15%;
+    left: 34%;
+    z-index: 100;
+}
+
+.three {
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    z-index: 100;
+    width: 150px;
+    height: 200px;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }

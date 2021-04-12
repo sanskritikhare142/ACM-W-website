@@ -51,3 +51,22 @@ footer p {
     line-height: 17px;
     color: #969696;
 }
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.owl-prev {
+    left: 1%;
+    color: #000 !important;
+    font-size: 35px!important;
+}
+
+.owl-next {
+    right: 1%;
+    color: #000 !important;
+    font-size: 35px!important;
+}
