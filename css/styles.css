@@ -28,8 +28,12 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.purple {
+    color: #9772D2;
+}
+
 footer {
-    background: url("/assets/events/cal.png");
+    margin-top: -5%;
 }
 
 footer h4 {

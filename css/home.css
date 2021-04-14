@@ -162,35 +162,42 @@
 }
 
 .box {
-    width: 478px;
-    height: 79px;
+    width: 85%;
+    height: 150px;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(4px);
     border-radius: 10px;
     margin: 10%;
-    padding: 5% 10%;
 }
 
 .box img {
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
+    margin: 4% 2%;
 }
 
-.box p {
-    font-family: 'Poppins';
+.box h1 {
+    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 30px;
-    text-align: center;
     color: #64558E;
+}
+
+.content {
+    padding: 2% 4%;
+}
+
+.carousel {
+    margin-bottom: 10%;
 }
 
 .contact {
     background: url("/assets/home/contact.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10%;
+    padding: 4% 6%;
 }
 
 .owl-carousel {
@@ -225,6 +232,16 @@
 
 .abs {
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 10%;
+    top: 45%;
+}
+
+.carousel-item p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    color: #848383;
 }
