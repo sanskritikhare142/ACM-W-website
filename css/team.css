@@ -1,0 +1,59 @@
+.intro {
+    background: url("/assets/team/intro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 10%;
+    margin-top: -5%;
+}
+
+.name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #263238;
+    margin-top: 2%;
+}
+
+.pos {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #0A19CE;
+}
+
+.one-liner {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #969696;
+}
+
+.members {
+    padding: 2% 5%;
+}
+
+.members div {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.social {
+    position: absolute;
+    bottom: -18%;
+    left: 42%;
+}
+
+.social img {
+    padding: 0 15%;
+}
