@@ -3,3 +3,110 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.project {
+    width: 85%;
+    height: 145px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.06));
+    margin: 2% auto;
+    padding: 2%;
+}
+
+.project h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #64558E;
+}
+
+.project h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #0A19CE;
+}
+
+.project p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    color: #848383;
+    padding: 1%;
+}
+
+.opportunities {
+    background: url("/assets/news/opportunities.jpg");
+    background-size: cover;
+    padding: 10%;
+}
+
+.opportunity {
+    width: 478px;
+    height: 79px;
+    filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.06));
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    margin-top: 8%;
+}
+
+.opportunity p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #64558E;
+    padding: 5% 8%;
+}
+
+.card h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #0A19CE;
+}
+
+.card button {
+    width: 101px;
+    height: 33px;
+    background: linear-gradient(178.89deg, #BF9AD4 0.95%, #407BFF 252.36%);
+    border-radius: 4px;
+    position: absolute;
+    bottom: 4%;
+    left: 32%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.check {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0A19CE;
+    margin: 0 40px;
+    padding: 0% 5%;
+}
