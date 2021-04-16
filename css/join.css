@@ -92,3 +92,41 @@ input::placeholder {
 .collab {
     background: url("/assets/events/cal.png")
 }
+
+@media (max-width:1000px) {
+    .intro {
+        background-size: contain;
+    }
+}
+
+@media(max-width:575px) {
+    .accordion .card h2 {
+        background: url(https://cdn0.iconfinder.com/data/icons/entypo/91/arrow56-512.png) no-repeat calc(100% - 10px) center;
+        background-size: 9px;
+        font-size: 10px;
+        line-height: 26px;
+    }
+    .collab input[type="text"],
+    .collab input[type="email"] {
+        width: 280px;
+        height: 35px;
+    }
+    .collab h5 {
+        font-size: 12px;
+    }
+    input::placeholder {
+        font-size: 10px;
+        line-height: 24px;
+    }
+}
+
+@media(min-width:576px) and (max-width:1090px) {
+    .collab input[type="text"],
+    .collab input[type="email"] {
+        width: 420px;
+    }
+    .intro h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
