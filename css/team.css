@@ -57,3 +57,35 @@
 .social img {
     padding: 0 15%;
 }
+
+@media (max-width:1090px) {
+    .intro {
+        background-size: contain;
+    }
+}
+
+@media(max-width:575px) {
+    .members img {
+        width: 120px;
+        height: 120px;
+    }
+    .social img {
+        width: 21px;
+        height: 21px;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .name {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .pos {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .one-liner {
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
