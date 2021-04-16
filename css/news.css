@@ -110,3 +110,53 @@
     margin: 0 40px;
     padding: 0% 5%;
 }
+
+@media (max-width:1090px) {
+    .intro {
+        background-size: contain;
+    }
+}
+
+@media(max-width:575px) {
+    .project h1 {
+        font-size: 13px;
+    }
+    .project h2 {
+        font-size: 10px;
+    }
+    .project p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .check {
+        padding: 0;
+        font-size: 12px;
+    }
+    .opportunity {
+        width: 280px;
+        height: 70px;
+    }
+    .opportunity p {
+        font-size: 15px;
+        padding: 7% 8%;
+    }
+}
+
+@media(min-width:576px) and (max-width:900px) {
+    .opportunity {
+        width: 330px;
+        height: 70px;
+    }
+    .opportunity p {
+        font-size: 15px;
+    }
+}
+
+@media(min-width:901px) and (max-width:1090px) {
+    .item .card {
+        width: 300px;
+    }
+    .intro h1 {
+        font-size: 58px;
+    }
+}
