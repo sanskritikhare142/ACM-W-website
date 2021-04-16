@@ -318,3 +318,24 @@
         line-height: 13px;
     }
 }
+
+@media(min-width:576px) and (max-width:900px) {
+    .web,
+    .cyber,
+    .human,
+    .ml {
+        width: 280px;
+        height: 60px;
+    }
+    .web p,
+    .cyber p,
+    .human p,
+    .ml p {
+        font-size: 15px;
+        padding-top: 5%;
+    }
+    .intro h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
