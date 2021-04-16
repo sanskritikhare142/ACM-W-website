@@ -104,3 +104,47 @@ iframe {
     width: 1000px;
     height: 600px;
 }
+
+.owl-carousel {
+    position: relative;
+}
+
+.one {
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
+
+.two {
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+}
+
+@media (max-width: 1090px) {
+    .intro {
+        background-size: contain;
+    }
+}
+
+@media(max-width:575px) {
+    .collab input[type="text"],
+    .collab input[type="email"] {
+        width: 280px;
+        height: 35px;
+    }
+    .collab h5 {
+        font-size: 12px;
+    }
+    input::placeholder {
+        font-size: 10px;
+        line-height: 24px;
+    }
+}
+
+@media(min-width:576px) and (max-width:1090px) {
+    .collab input[type="text"],
+    .collab input[type="email"] {
+        width: 420px;
+    }
+}
