@@ -74,3 +74,48 @@ footer p {
     color: #000 !important;
     font-size: 35px!important;
 }
+
+.owl-theme .owl-dots .owl-dot.active span {
+    width: 20px;
+    background-color: #CCCBCB!important;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    border-radius: 50%;
+    background-color: #CCCBCB!important;
+    border-top: none;
+    border-bottom: none;
+}
+
+.carousel-indicators .active {
+    width: 20px;
+    border-radius: 38%;
+}
+
+.carousel-control-next-icon {
+    background: url("/assets/right.png");
+    transform: rotateY(-180deg);
+    position: absolute;
+    right: -2%;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 30%;
+    background: url("/assets/right.png");
+}
+
+@media(max-width:1000px) {
+    .bg-light {
+        background: url("/assets/nav.png")!important;
+    }
+}
+
+@media(max-width:575px) {
+    footer {
+        margin-top: -15%;
+    }
+}

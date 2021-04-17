@@ -178,6 +178,7 @@
     width: 100px;
     height: 100px;
     margin: 4% 2%;
+    border-radius: 50%;
 }
 
 .box h1 {
@@ -226,8 +227,8 @@
     bottom: 15%;
     right: 0;
     z-index: 100;
-    width: 150px;
-    height: 200px;
+    width: 135px;
+    height: 145px;
 }
 
 .rel {
@@ -317,6 +318,15 @@
         font-size: 9px;
         line-height: 13px;
     }
+    .intro {
+        margin-top: 0%;
+    }
+    .contact {
+        padding-bottom: 35%;
+    }
+    .carousel-indicators {
+        bottom: -3%;
+    }
 }
 
 @media(min-width:576px) and (max-width:900px) {
@@ -337,5 +347,8 @@
     .intro h1 {
         font-size: 40px;
         line-height: 55px;
+    }
+    .intro {
+        margin-top: 0%;
     }
 }

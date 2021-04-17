@@ -140,11 +140,38 @@ iframe {
         font-size: 10px;
         line-height: 24px;
     }
+    .item p {
+        line-height: 14px;
+        font-size: 10px;
+    }
+    .item h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .owl-carousel .item {
+        width: 100%;
+        height: 275px;
+    }
+    .item .desc {
+        width: 300px;
+    }
+    .owl-next {
+        right: -1%
+    }
+    .owl-prev {
+        left: -1%;
+    }
+    .cal {
+        padding-bottom: 35%;
+    }
 }
 
 @media(min-width:576px) and (max-width:1090px) {
     .collab input[type="text"],
     .collab input[type="email"] {
         width: 420px;
+    }
+    .owl-carousel .item {
+        width: 100%;
     }
 }

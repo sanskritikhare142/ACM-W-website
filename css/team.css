@@ -43,11 +43,13 @@
     padding: 2% 5%;
 }
 
+.exec div,
 .members div {
     margin-top: 5%;
     margin-bottom: 10%;
 }
 
+.exec img,
 .members img {
     width: 185px;
     height: 185px;
@@ -75,6 +77,7 @@
 }
 
 @media(max-width:575px) {
+    .exec img,
     .members img {
         width: 120px;
         height: 120px;
@@ -97,5 +100,8 @@
     .one-liner {
         font-size: 10px;
         line-height: 13px;
+    }
+    .members {
+        padding-bottom: 35%;
     }
 }

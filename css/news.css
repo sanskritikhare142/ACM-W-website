@@ -132,6 +132,9 @@
         padding: 0;
         font-size: 12px;
     }
+    .opportunities {
+        padding-bottom: 35%!important;
+    }
     .opportunity {
         width: 280px;
         height: 70px;
