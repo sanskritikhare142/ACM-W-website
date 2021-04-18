@@ -127,7 +127,7 @@ input::placeholder {
 @media(min-width:576px) and (max-width:1090px) {
     .collab input[type="text"],
     .collab input[type="email"] {
-        width: 420px;
+        width: 320px;
     }
     .intro h1 {
         font-size: 50px;

@@ -111,6 +111,14 @@
     padding: 0% 5%;
 }
 
+.opportunities .col-6 {
+    max-width: 100%;
+}
+
+.opportunities h3 {
+    text-align: left;
+}
+
 @media (max-width:1090px) {
     .intro {
         background-size: contain;
@@ -138,10 +146,17 @@
     .opportunity {
         width: 280px;
         height: 70px;
+        margin: 8% 0 0;
     }
     .opportunity p {
         font-size: 15px;
         padding: 7% 8%;
+    }
+    .item .card {
+        height: 345px;
+    }
+    .opportunities h3 {
+        text-align: center;
     }
 }
 
@@ -161,5 +176,28 @@
     }
     .intro h1 {
         font-size: 58px;
+    }
+}
+
+@media(max-width:325px) {
+    .project h1 {
+        line-height: 15px;
+        font-size: 10px;
+    }
+    .project p {
+        line-height: 12px;
+    }
+    .opportunity {
+        width: 250px;
+        margin: 8% -2% 0;
+    }
+    .opportunity p {
+        line-height: 15px;
+    }
+}
+
+@media(min-width:376px) {
+    .opportunity {
+        margin: 8% 5% 0;
     }
 }

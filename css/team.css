@@ -72,11 +72,14 @@
 
 @media (max-width:1090px) {
     .intro {
-        background-size: contain;
+        background-size: cover;
     }
 }
 
 @media(max-width:575px) {
+    .intro {
+        background-size: contain;
+    }
     .exec img,
     .members img {
         width: 120px;

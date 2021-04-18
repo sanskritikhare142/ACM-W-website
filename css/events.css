@@ -101,7 +101,7 @@ input::placeholder {
 }
 
 iframe {
-    width: 1000px;
+    width: 100%;
     height: 600px;
 }
 
@@ -132,9 +132,11 @@ iframe {
     .collab input[type="email"] {
         width: 280px;
         height: 35px;
+        margin: 0 auto;
     }
     .collab h5 {
         font-size: 12px;
+        text-align: center;
     }
     input::placeholder {
         font-size: 10px;
@@ -164,14 +166,42 @@ iframe {
     .cal {
         padding-bottom: 35%;
     }
+    .logo img {
+        width: 90%;
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+    .two {
+        left: 75%;
+    }
+    .collab h4 {
+        text-align: center;
+    }
+    .collab button {
+        margin: 0 35%;
+    }
 }
 
 @media(min-width:576px) and (max-width:1090px) {
     .collab input[type="text"],
     .collab input[type="email"] {
-        width: 420px;
+        width: 330px;
     }
     .owl-carousel .item {
         width: 100%;
+    }
+    .logo img {
+        width: 90%;
+    }
+    .two {
+        left: 70%;
+    }
+}
+
+@media(max-width:325px) {
+    .item p {
+        line-height: 11px;
     }
 }
