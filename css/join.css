@@ -90,7 +90,8 @@ input::placeholder {
 }
 
 .collab {
-    background: url("/assets/events/cal.png")
+    background: url("/assets/events/cal.png");
+    background-size: cover;
 }
 
 @media (max-width:1000px) {

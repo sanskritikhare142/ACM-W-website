@@ -98,6 +98,7 @@ input::placeholder {
 .cal {
     padding: 10%;
     background: url("/assets/events/cal.png");
+    background-size: cover;
 }
 
 iframe {
