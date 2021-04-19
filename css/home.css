@@ -358,6 +358,20 @@
     .one {
         top: -10%;
     }
+    .owl-carousel {
+        padding: 5% 1%;
+    }
+    .item .card {
+        width: 220px;
+    }
+    .card .card-title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .card .card-text {
+        font-size: 10px;
+        line-height: 15px;
+    }
 }
 
 @media (max-width:325px) {

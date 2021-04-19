@@ -76,6 +76,12 @@
     }
 }
 
+@media(min-width:578px) and (max-width:699px) {
+    .intro {
+        background-size: contain;
+    }
+}
+
 @media(max-width:575px) {
     .intro {
         background-size: contain;

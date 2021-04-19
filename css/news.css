@@ -168,14 +168,31 @@
     .opportunity p {
         font-size: 15px;
     }
+    .card .card-text {
+        line-height: 13px!important;
+    }
+    .card .card-title {
+        font-size: 18px!important;
+        line-height: 25px!important;
+    }
+    .card button {
+        left: 25%;
+    }
 }
 
 @media(min-width:901px) and (max-width:1090px) {
     .item .card {
-        width: 300px;
+        width: 295px;
     }
     .intro h1 {
         font-size: 58px;
+    }
+    .card .card-text {
+        line-height: 10px!important;
+    }
+    .card .card-title {
+        font-size: 18px!important;
+        line-height: 25px!important;
     }
 }
 
