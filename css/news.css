@@ -1,5 +1,5 @@
 .intro {
-    background: url("/assets/news/intro.png");
+    background: url("../assets/news/intro.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -47,7 +47,7 @@
 }
 
 .opportunities {
-    background: url("/assets/news/opportunities.jpg");
+    background: url("../assets/news/opportunities.jpg");
     background-size: cover;
     padding: 10%;
 }

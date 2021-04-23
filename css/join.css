@@ -1,5 +1,5 @@
 .intro {
-    background: url("/assets/join/intro.png");
+    background: url("../assets/join/intro.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,7 +90,7 @@ input::placeholder {
 }
 
 .collab {
-    background: url("/assets/events/cal.png");
+    background: url("../assets/events/cal.png");
     background-size: cover;
 }
 

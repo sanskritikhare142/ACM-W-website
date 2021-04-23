@@ -1,5 +1,5 @@
 .intro {
-    background: url("/assets/events/intro.png");
+    background: url("../assets/events/intro.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -97,7 +97,7 @@ input::placeholder {
 
 .cal {
     padding: 10%;
-    background: url("/assets/events/cal.png");
+    background: url("../assets/events/cal.png");
     background-size: cover;
 }
 
